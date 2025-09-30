@@ -34,6 +34,77 @@ Build a To-Do List application using Java Swing that allows users to add and del
 
 ---
 
+## 📂 Project Structure in VS Code
+
+ToDoAppProject/                # Your project root folder
+
+│
+
+├── .vscode/                   # VS Code settings (auto-generated)
+
+│   ├── launch.json            # Debug configuration
+
+│   └── settings.json          # Project settings
+
+│
+
+├── src/                       # Java source files
+
+│   └── ToDoApp.java           # Your main class
+
+│
+
+└── bin/                       # Compiled .class files (auto-created)
+
+---
+
+## 💻 How to Run in VS Code
+
+## ⚡ Step-by-Step Setup
+
+1.Create Project Folder
+
+- Make a folder called ToDoAppProject.
+
+- Inside, create a folder named src.
+
+2.Add Java File
+
+- Inside src, create a file:
+
+ToDoApp.java
+
+
+- Paste the class code I gave you earlier.
+
+3.Open in VS Code
+
+- Open ToDoAppProject in VS Code.
+
+- Install Java Extension Pack (if not done already).
+
+4.Configure Build & Run
+
+- VS Code will detect the .java file automatically.
+
+- First time you run, it will generate a .vscode folder with launch.json.
+
+Or manually build using terminal:
+
+javac -d bin src/ToDoApp.java
+java -cp bin ToDoApp
+
+
+5.Run the Program
+
+- Hit ▶ Run in VS Code (top-right corner).
+
+- Or use terminal as above.
+
+- A GUI window will appear.
+
+---
+
 ## 💻 How to Run
 
 - Open the project in IntelliJ IDEA CE or Eclipse.
